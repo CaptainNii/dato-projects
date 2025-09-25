@@ -1,0 +1,7 @@
+--build-arg DOMAIN_NAME= \
+--build-arg RDS_ENDPOINT= \
+--build-arg RDS_DB_NAME= \
+--build-arg RDS_DB_USERNAME= \
+--build-arg RDS_MASTER_USERNAME= \
+--build-arg RDS_DB_PASSWORD= \
+-t <image-tag> .
